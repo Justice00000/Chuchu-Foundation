@@ -1,0 +1,1256 @@
+@charset "UTF-8";
+
+/* ----------------------------------------------
+   IMPORTS
+ -----------------------------------------------*/
+/* -- Variables
+-------------------------------------------------------------- */
+/*
+ * Paddings / Margins
+ */
+/*
+ * Header
+ */
+/*
+ * Colors
+ */
+/*
+ * Forms
+ */
+/*
+ * Typography
+ */
+/* -- Bootstrap repsonsive helpers
+-------------------------------------------------------------- */
+/* -- SVG background images with PNG and retina fallback
+-------------------------------------------------------------- */
+/* -- Lineair Gradient
+-------------------------------------------------------------- */
+/* -- Transitions
+-------------------------------------------------------------- */
+/* -- Transform transitions
+-------------------------------------------------------------- */
+/* -- Transition delay
+-------------------------------------------------------------- */
+/* -- Animations
+-------------------------------------------------------------- */
+/* -- Border radius
+-------------------------------------------------------------- */
+/* -- Cross browser opacity
+-------------------------------------------------------------- */
+/* -- Cross browser appearance
+-------------------------------------------------------------- */
+/* -- Clearfix
+-------------------------------------------------------------- */
+/* -- Filters
+-------------------------------------------------------------- */
+/* -- Blur
+-------------------------------------------------------------- */
+/* -- Box shadow
+-------------------------------------------------------------- */
+/* -- Text shadow
+-------------------------------------------------------------- */
+/* -- px to em
+-------------------------------------------------------------- */
+/* -- Transform mixins
+-------------------------------------------------------------- */
+/* -- Equal height columns
+-------------------------------------------------------------- */
+.row-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.col-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .row-xs-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .table-row-xs-height {
+        display: table-row;
+        height: 100%;
+    }
+
+    .col-xs-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-xs-top {
+        vertical-align: top;
+    }
+
+    .col-xs-middle {
+        vertical-align: middle;
+    }
+
+    .col-xs-bottom {
+        vertical-align: bottom;
+    }
+}
+
+@media (min-width: 768px) {
+    .row-sm-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .table-row-sm-height {
+        display: table-row;
+        height: 100%;
+    }
+
+    .col-sm-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-sm-top {
+        vertical-align: top;
+    }
+
+    .col-sm-middle {
+        vertical-align: middle;
+    }
+
+    .col-sm-bottom {
+        vertical-align: bottom;
+    }
+}
+
+@media (min-width: 992px) {
+    .row-md-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .table-row-md-height {
+        display: table-row;
+        height: 100%;
+    }
+
+    .col-md-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-md-top {
+        vertical-align: top;
+    }
+
+    .col-md-middle {
+        vertical-align: middle;
+    }
+
+    .col-md-bottom {
+        vertical-align: bottom;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+    .row-lg-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .table-row-lg-height {
+        display: table-row;
+        height: 100%;
+    }
+
+    .col-lg-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-lg-top {
+        vertical-align: top;
+    }
+
+    .col-lg-middle {
+        vertical-align: middle;
+    }
+
+    .col-lg-bottom {
+        vertical-align: bottom;
+    }
+}
+
+/* -- Active menu item
+-------------------------------------------------------------- */
+/* -- Responsive padding
+-------------------------------------------------------------- */
+/* -- Responsive padding top
+-------------------------------------------------------------- */
+/* -- Responsive padding bottom
+-------------------------------------------------------------- */
+/* -- Responsive margin top
+-------------------------------------------------------------- */
+/* -- Responsive margin bottom
+-------------------------------------------------------------- */
+/* -- Responsive font
+-------------------------------------------------------------- */
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+html #top .gform_wrapper .gf_page_steps .gf_step .gf_step_label {
+    font-weight: 400;
+    background-color: transparent;
+}
+
+html #top .gform_wrapper .gf_page_steps .gf_step .gf_step_number {
+    color: inherit;
+    border-color: #e1e1e1;
+    border-width: 1px;
+}
+
+html #top .gform_wrapper .gf_page_steps .gf_step.gf_step_active .gf_step_label {
+    font-weight: 700;
+}
+
+html #top .gform_wrapper .gf_page_steps .gf_step.gf_step_active .gf_step_number {
+    font-weight: 700;
+    border-color: #d6dbeb;
+    background-color: #f3f5fc;
+}
+
+html #top .gform_wrapper .gf_page_steps .gf_step.gf_step_completed .gf_step_label {
+    color: #16b131;
+    font-weight: 700;
+}
+
+html #top .gform_wrapper .gf_page_steps .gf_step.gf_step_completed .gf_step_number:before {
+    border: none;
+    background-color: #16b131;
+    top: -1px;
+    left: -1px;
+}
+
+html #top .gform_wrapper .gform_fields {
+    /* Checkbox */
+    /* Radio Group */
+}
+
+html #top .gform_wrapper .gform_fields label {
+    cursor: pointer;
+}
+
+html #top .gform_wrapper .gform_fields .gfield_label {
+    font-weight: 700;
+}
+
+html #top .gform_wrapper .gform_fields .gfield .gsection_title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+html #top .gform_wrapper .gform_fields a {
+    text-decoration: underline;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_complex label {
+    margin-bottom: 0;
+}
+
+html #top .gform_wrapper .gform_fields .gfield_description {
+    opacity: 0.85;
+}
+
+html #top .gform_wrapper .gform_fields .field_description_below .gfield_description {
+    padding-top: 10px;
+    line-height: 1.25;
+}
+
+html #top .gform_wrapper .gform_fields .gsection {
+    border-width: 0;
+}
+
+html #top .gform_wrapper .gform_fields .gsection .gsection_description {
+    margin-top: 0.5rem;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container_text input,
+html #top .gform_wrapper .gform_fields .ginput_container_text select,
+html #top .gform_wrapper .gform_fields .ginput_container_email input,
+html #top .gform_wrapper .gform_fields .ginput_container_email select,
+html #top .gform_wrapper .gform_fields .ginput_container_phone input,
+html #top .gform_wrapper .gform_fields .ginput_container_phone select,
+html #top .gform_wrapper .gform_fields .ginput_container_date input,
+html #top .gform_wrapper .gform_fields .ginput_container_date select,
+html #top .gform_wrapper .gform_fields .ginput_container_number input,
+html #top .gform_wrapper .gform_fields .ginput_container_number select,
+html #top .gform_wrapper .gform_fields .ginput_container_name input,
+html #top .gform_wrapper .gform_fields .ginput_container_name select,
+html #top .gform_wrapper .gform_fields .ginput_container_website input,
+html #top .gform_wrapper .gform_fields .ginput_container_website select,
+html #top .gform_wrapper .gform_fields .ginput_container_time input,
+html #top .gform_wrapper .gform_fields .ginput_container_time select,
+html #top .gform_wrapper .gform_fields .ginput_container_select input,
+html #top .gform_wrapper .gform_fields .ginput_container_select select,
+html #top .gform_wrapper .gform_fields .ginput_container_address input,
+html #top .gform_wrapper .gform_fields .ginput_container_address select,
+html #top .gform_wrapper .gform_fields .ginput_container_post_title input,
+html #top .gform_wrapper .gform_fields .ginput_container_post_title select,
+html #top .gform_wrapper .gform_fields .ginput_container_post_tags input,
+html #top .gform_wrapper .gform_fields .ginput_container_post_tags select {
+    color: #171515;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid #eaeaea;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background-color: #ffffff;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container_text input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_text select::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_email input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_email select::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_phone input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_phone select::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_date input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_date select::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_number input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_number select::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_name input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_name select::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_website input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_website select::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_time input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_time select::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_select input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_select select::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_address input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_address select::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_post_title input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_post_title select::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_post_tags input::placeholder,
+html #top .gform_wrapper .gform_fields .ginput_container_post_tags select::placeholder {
+    color: #171515;
+    opacity: 0.5;
+}
+
+html #top .gform_wrapper .gform_fields .gfield_checkbox label,
+html #top .gform_wrapper .gform_fields .ginput_container_consent label {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox],
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox] {
+    margin-top: 0;
+}
+
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox]+label,
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox]+label {
+    font-weight: 400;
+}
+
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox]:not(:checked),
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox]:checked,
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox]:not(:checked),
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox]:checked {
+    position: absolute;
+    left: -9999px;
+}
+
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox]:not(:checked)+label,
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox]:checked+label,
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox]:not(:checked)+label,
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox]:checked+label {
+    position: relative;
+    padding-left: 1.75rem;
+    cursor: pointer;
+}
+
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox]:not(:checked)+label:before,
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox]:checked+label:before,
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox]:not(:checked)+label:before,
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox]:checked+label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox]:not(:checked)+label:after,
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox]:not(:checked)+label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox]:checked+label,
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox]:checked+label {
+    font-weight: 700;
+}
+
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox]:checked+label:before,
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox]:checked+label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1px solid #ec1a8d;
+    background: #ec1a8d;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+html #top .gform_wrapper .gform_fields .gfield_checkbox input[type=checkbox]:checked+label:after,
+html #top .gform_wrapper .gform_fields .ginput_container_consent input[type=checkbox]:checked+label:after {
+    content: "✓ ";
+    position: absolute;
+    top: 0.25rem;
+    left: 0.25rem;
+    font-size: 1rem;
+    line-height: 0.75;
+    color: white;
+    transition: all 0.2s;
+    opacity: 1;
+    transform: scale(1);
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container.ginput_container_radio .gfield_radio {
+    display: flex;
+    padding-left: 0;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container.ginput_container_radio .gfield_radio>li {
+    position: relative;
+    white-space: nowrap;
+    overflow: visible;
+    margin-right: 15px;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container.ginput_container_radio .gfield_radio>li input[type=radio] {
+    opacity: 0;
+    margin-left: 0;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container.ginput_container_radio .gfield_radio>li input[type=radio]+label {
+    font-weight: 400;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container.ginput_container_radio .gfield_radio>li input[type=radio]:checked+label {
+    font-weight: 700;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container.ginput_container_radio .gfield_radio>li input[type=radio]:checked+label::before {
+    opacity: 1;
+    -webkit-transform: rotate(45deg) scale(1);
+    -ms-transform: rotate(45deg) scale(1);
+    transform: rotate(45deg) scale(1);
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container.ginput_container_radio .gfield_radio>li input[type=radio]:checked+label::after {
+    background-color: #ec1a8d;
+    border-color: #ec1a8d;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container.ginput_container_radio .gfield_radio>li label {
+    font-size: 0.875rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container.ginput_container_radio .gfield_radio>li label::before {
+    width: 0.5rem;
+    height: 0.5rem;
+    content: "";
+    left: 0.5rem;
+    top: 0.675rem;
+    background-color: white;
+    position: absolute;
+    border-color: #ec1a8d;
+    opacity: 0;
+    z-index: 10;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transform: rotate(45deg) scale(0.5);
+    -o-transform: rotate(45deg) scale(0.5);
+    -ms-transform: rotate(45deg) scale(0.5);
+    -webkit-transform: rotate(45deg) scale(0.5);
+    transform: rotate(45deg) scale(0.5);
+    -webkit-transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+    -moz-transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+    -ms-transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+    -o-transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container.ginput_container_radio .gfield_radio>li label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0.3rem;
+    left: 2px;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: white;
+    z-index: 5;
+    border: 1px solid #eaeaea;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container_fileupload input[type=file] {
+    font-size: 1rem;
+    width: 100%;
+    padding: 2rem;
+    border: 2px dashed #eaeaea;
+}
+
+html #top .gform_wrapper .gform_fields .ginput_container_fileupload input[type=file]:focus {
+    outline: none;
+}
+
+html #top .gform_wrapper .gform_fields li.gfield.gfield_error,
+html #top .gform_wrapper .gform_fields li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+html #top .gform_wrapper .gform_fields li.gfield_error div.ginput_complex.ginput_container label,
+html #top .gform_wrapper .gform_fields li.gfield_error ul.gfield_checkbox,
+html #top .gform_wrapper .gform_fields li.gfield_error ul.gfield_radio,
+html #top .gform_wrapper .gform_fields .gfield_error .gfield_label {
+    color: inherit;
+}
+
+html #top .gform_wrapper .gform_fields .validation_message {
+    color: #be223a !important;
+}
+
+html #top .gform_wrapper .gform_fields .gfield_required {
+    color: #be223a !important;
+}
+
+@media (max-width: 767px) {
+
+    html #top .gform_wrapper .gform_fields .top_label li.gfield.gf_left_half,
+    html #top .gform_wrapper .gform_fields .top_label li.gfield.gf_right_half,
+    html #top .gform_wrapper .gform_fields .top_label li.gfield.gf_left_third,
+    html #top .gform_wrapper .gform_fields .top_label li.gfield.gf_middle_third {
+        margin-top: 20px;
+    }
+}
+
+html #top .gform_wrapper .gform_fields #dropbox_upload {
+    overflow: hidden;
+    position: relative;
+}
+
+html #top .gform_wrapper .gform_fields #disable-upload {
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color: #eaeaea;
+    opacity: 0.75;
+    top: 0;
+}
+
+html #top .gform_wrapper .gform_fields #dropbox_validation_message {
+    z-index: 10;
+    position: relative;
+}
+
+html #top .gform_wrapper .gform_footer input.button,
+html #top .gform_wrapper .gform_footer input[type=submit],
+html #top .gform_wrapper .gform_page_footer input.button,
+html #top .gform_wrapper .gform_page_footer input[type=submit] {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+html #top .gform_wrapper .gform_footer input.button:focus,
+html #top .gform_wrapper .gform_footer input[type=submit]:focus,
+html #top .gform_wrapper .gform_page_footer input.button:focus,
+html #top .gform_wrapper .gform_page_footer input[type=submit]:focus {
+    outline: none;
+}
+
+html #top .gform_wrapper div.validation_error {
+    color: white;
+    text-align: center;
+    border-top: none;
+    border-bottom: none;
+    margin-bottom: 0;
+    background: #be223a;
+    padding: 1rem;
+}
+
+html #top .gform_wrapper .gf_page_steps,
+html #top .gform_wrapper .gform_page_footer {
+    border-color: #e1e1e1;
+}
+
+html #top .gform_wrapper #progress {
+    display: none;
+    margin-top: 20px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid #ec1a8d;
+    border-radius: 25px;
+    z-index: 10;
+    position: relative;
+}
+
+html #top .gform_wrapper #progress .inner {
+    width: 0px;
+    min-width: 35px;
+    height: 25px;
+    background-color: #ec1a8d;
+    border: 2px solid #ec1a8d;
+    border-radius: 25px;
+    transition: width 0.2s ease-in-out;
+    margin-top: -2px;
+}
+
+html #top .gform_wrapper #progress .percent {
+    height: 21px;
+    color: white;
+    font-size: 0.875rem;
+    line-height: 21px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+html #top .gform_wrapper .gform_ajax_spinner {
+    width: 16px;
+    height: 16px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    align-self: flex-end;
+}
+
+html #top .gform-theme-datepicker:not(.gform-legacy-datepicker) .ui-datepicker-header select.ui-datepicker-month {
+    -moz-text-align-last: left;
+    text-align-last: left;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html body#top {
+    font-size: 1rem;
+}
+
+html body#top .alignleft {
+    margin-right: 1.5em;
+}
+
+html body#top .alignright {
+    margin-left: 1.5em;
+}
+
+html body#top label,
+html body#top label span {
+    font-weight: 700;
+}
+
+html body#top .avia-image-container {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+
+    html body#top .alignleft,
+    html body#top .alignright {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto !important;
+    }
+}
+
+html p {
+    margin: 1rem 0 2rem;
+}
+
+html .avia_textblock {
+    line-height: inherit;
+}
+
+html .avia_textblock p:first-child {
+    margin-top: 0;
+}
+
+html #top td,
+html #top input,
+html #top label,
+html #top legend,
+html #top label span,
+html #top legend span {
+    font-size: 0.875rem !important;
+    color: inherit;
+}
+
+html #top p+h1,
+html #top p+h2,
+html #top p+h3,
+html #top p+h4,
+html #top p+h5,
+html #top p+h6 {
+    margin-top: 0;
+}
+
+html #top .avia_textblock p a {
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------
+   HEADINGS
+ -----------------------------------------------*/
+html #top th {
+    letter-spacing: 0;
+}
+
+html #top .cookie-consent-io-cookie-bar h3 {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    html #top .cookie-consent-io-cookie-bar h3 {
+        font-size: calc(1.275rem + 0.3vw);
+    }
+}
+
+html #top .display-4 .av-special-heading-tag,
+html #top .display-4 {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 1200px) {
+
+    html #top .display-4 .av-special-heading-tag,
+    html #top .display-4 {
+        font-size: calc(1.475rem + 2.7vw);
+    }
+}
+
+html #top h1.av-special-heading-tag,
+html #top .h1 .av-special-heading-tag {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 1200px) {
+
+    html #top h1.av-special-heading-tag,
+    html #top .h1 .av-special-heading-tag {
+        font-size: calc(1.375rem + 1.5vw);
+    }
+}
+
+html #top h2.av-special-heading-tag,
+html #top .h2 .av-special-heading-tag {
+    font-size: 2rem;
+}
+
+@media (max-width: 1200px) {
+
+    html #top h2.av-special-heading-tag,
+    html #top .h2 .av-special-heading-tag {
+        font-size: calc(1.325rem + 0.9vw);
+    }
+}
+
+html #top h3.av-special-heading-tag,
+html #top .h3 .av-special-heading-tag {
+    font-size: 1.75rem;
+}
+
+@media (max-width: 1200px) {
+
+    html #top h3.av-special-heading-tag,
+    html #top .h3 .av-special-heading-tag {
+        font-size: calc(1.3rem + 0.6vw);
+    }
+}
+
+html #top h4.av-special-heading-tag,
+html #top .h4 .av-special-heading-tag {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+
+    html #top h4.av-special-heading-tag,
+    html #top .h4 .av-special-heading-tag {
+        font-size: calc(1.275rem + 0.3vw);
+    }
+}
+
+html #top h5.av-special-heading-tag,
+html #top .h5 .av-special-heading-tag {
+    font-size: 1.25rem;
+}
+
+html #top h6.av-special-heading-tag,
+html #top .h6 .av-special-heading-tag {
+    font-size: 1rem;
+}
+
+html #top h1,
+html #top h2,
+html #top h3,
+html #top h4,
+html #top h5,
+html #top h6,
+html #top .av-special-heading.modern-quote .av-special-heading-tag {
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    line-height: 1.25em;
+    letter-spacing: 0;
+}
+
+html #top h1.special,
+html #top h2.special,
+html #top h3.special,
+html #top h4.special,
+html #top h5.special,
+html #top h6.special,
+html #top .av-special-heading.classic-quote .av-special-heading-tag {
+    font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+html #top p+.av-special-heading {
+    margin-top: 2rem;
+}
+
+html #top .av-special-heading {
+    margin-bottom: 2rem;
+    padding-bottom: 0 !important;
+}
+
+html #top .av-subheading {
+    font-size: 1rem;
+}
+
+/* ----------------------------------------------
+   HEADER
+ -----------------------------------------------*/
+html #top #header_meta .phone-info,
+html #top #header_meta .sub_menu,
+html #top #header_meta .social_bookmarks {
+    font-size: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+@media (min-width: 768px) {
+    html #top #header_meta .phone-info span {
+        line-height: 30px;
+        height: 30px;
+    }
+}
+
+html #top #header_meta .social_bookmarks {
+    height: auto;
+}
+
+html #top #header_meta .sub_menu>ul>li>a,
+html #top #header_meta .sub_menu>div>ul>li>a,
+html #top #header_meta .social_bookmarks li a {
+    height: 30px;
+}
+
+/* ----------------------------------------------
+   SECTIONS
+ -----------------------------------------------*/
+@media (max-width: 1199px) {
+    html body .avia-section .content {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    html body .avia-section.avia-section-huge .content {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    html body .avia-section.avia-section-large .content {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+/* ----------------------------------------------
+   HOOFDMENU
+ -----------------------------------------------*/
+html {
+    /* Hoofdmenu - Desktop */
+    /* Hoofdmenu - Mobile */
+}
+
+html #top .av-main-nav ul {
+    width: 300px;
+}
+
+html #top .av-main-nav>li>a {
+    min-width: 60px;
+}
+
+html #top .header_color {
+    /* Indicator */
+}
+
+html #top .header_color .av-main-nav li:hover .avia-menu-fx,
+html #top .header_color .current-menu-item>a>.avia-menu-fx,
+html #top .header_color .current-page-ancestor>a>.avia-menu-fx,
+html #top .header_color .av-main-nav li:hover .current_page_item>a>.avia-menu-fx,
+html #top .header_color .av-main-nav li:hover .current-page-ancestor>a>.avia-menu-fx,
+html #top .header_color .main_menu ul:first-child>li.active-parent-item>a>.avia-menu-fx {
+    opacity: 1;
+    visibility: visible;
+}
+
+html #top .header_color .main_menu .av-main-nav>li>a {
+    font-size: inherit;
+}
+
+html #top .header_color .main_menu .av-main-nav ul .current-menu-item>a,
+html #top .header_color .main_menu .av-main-nav ul .current_page_item>a {
+    color: #ec1a8d;
+}
+
+html #top #wrap_all .av_seperator_big_border#header .av-menu-button-colored>a {
+    background-color: transparent;
+}
+
+/* ----------------------------------------------
+   SPECIAL AMP
+ -----------------------------------------------*/
+html .special_amp {
+    color: inherit !important;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+}
+
+/* ----------------------------------------------
+   MESSAGE BOX
+ -----------------------------------------------*/
+html #top .avia_message_box .avia_message_box_content p {
+    display: block;
+}
+
+html #top .avia_message_box .avia_message_box_icon {
+    font-size: 2rem;
+    display: block;
+    left: auto;
+}
+
+/* ----------------------------------------------
+   BUTTONS
+ -----------------------------------------------*/
+html #top .avia-button-wrap.d-block .avia-button {
+    display: block;
+}
+
+html #top .avia-button-wrap.disabled .avia-button {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+html #top .avia-button {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+html #top .avia-button,
+html #top .avia-button:active {
+    border-style: solid;
+    border-width: 2px !important;
+}
+
+html #top .avia-button:active {
+    opacity: 0.5;
+}
+
+html #top .avia-button.avia-color-theme-color {
+    border-color: transparent;
+}
+
+html #top .avia-button.avia-color-dark {
+    color: #ec1a8d;
+    border-color: #ec1a8d;
+}
+
+html #top .avia-button.avia-size-small {
+    font-size: 0.75rem;
+}
+
+html #top .avia-button.avia-size-medium {
+    font-size: 1rem;
+}
+
+html #top .avia-button.avia-size-x-large {
+    font-size: 1.25rem;
+}
+
+/* ----------------------------------------------
+   MAIN
+ -----------------------------------------------*/
+html.html_header_top.html_header_sticky #top #wrap_all #main {
+    padding-top: calc(130px + 0.5rem + 30px);
+}
+
+/* ----------------------------------------------
+   AVIA FULLWIDTH SLIDER
+ -----------------------------------------------*/
+html #top .avia-fullwidth-slider .slideshow_caption .avia-caption-content {
+    margin-bottom: 2rem;
+}
+
+html #top .avia-fullwidth-slider .avia-slideshow-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+html #top .avia-fullwidth-slider .av_slideshow_full li img {
+    object-fit: cover;
+}
+
+/* ----------------------------------------------
+   SECTIONS
+ -----------------------------------------------*/
+@media (max-width: 991px) {
+
+    .html_header_transparency #top .avia-builder-el-0 .container,
+    .html_header_transparency #top .avia-builder-el-0 .slideshow_caption {
+        padding-top: 0 !important;
+    }
+}
+
+/* ----------------------------------------------
+   AVIA PARALLAX
+ -----------------------------------------------*/
+html.avia_mobile .av-parallax {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+}
+
+/* ----------------------------------------------
+   FORM FIELDS
+ -----------------------------------------------*/
+html #top .main_color .input-text,
+html #top .main_color input[type=text],
+html #top .main_color input[type=input],
+html #top .main_color input[type=password],
+html #top .main_color input[type=email],
+html #top .main_color input[type=number],
+html #top .main_color input[type=url],
+html #top .main_color input[type=tel],
+html #top .main_color input[type=search],
+html #top .main_color textarea,
+html #top .main_color select {
+    font-size: 0.875rem;
+    background-color: #ffffff;
+}
+
+/* ----------------------------------------------
+   LIGHTBOX / IFRAME
+ -----------------------------------------------*/
+html #top .mfp-container .mfp-iframe-scaler {
+    min-height: 75vh;
+}
+
+/* ----------------------------------------------
+   WIDGET MENU
+ -----------------------------------------------*/
+html #top .widget_nav_menu li {
+    border-width: 0 !important;
+}
+
+html #top .widget_nav_menu li a {
+    font-size: 1rem;
+    padding: 2px 0 !important;
+}
+
+html #top .widget_nav_menu li>a:hover,
+html #top .widget_nav_menu li.current-menu-item,
+html #top .widget_nav_menu li.current-menu-item>a,
+html #top .widget_nav_menu li.current_page_item,
+html #top .widget_nav_menu li.current_page_item>a {
+    background-color: transparent !important;
+}
+
+html #top .widget_nav_menu li.current-menu-item>a,
+html #top .widget_nav_menu li.current_page_item>a {
+    color: #ec1a8d;
+}
+
+/* ----------------------------------------------
+   SOCKET
+ -----------------------------------------------*/
+html #top #socket {
+    font-size: 0.875rem;
+}
+
+html #top #socket>.container {
+    display: flex;
+    align-items: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+@media (max-width: 750px) {
+    html #top #socket>.container {
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 1500px) {
+    html #top #socket>.container {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    html #top #socket>.container {
+        padding-bottom: 15px;
+    }
+}
+
+@media (min-width: 1500px) {
+    html #top #socket>.container {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    html #top #socket>.container {
+        flex-direction: column;
+    }
+}
+
+html #top #socket .copyright {
+    margin-right: 20px;
+}
+
+html #top #socket .copyright,
+html #top #socket .sub_menu_socket {
+    float: none;
+}
+
+@media (max-width: 991px) {
+
+    html #top #socket .copyright,
+    html #top #socket .sub_menu_socket {
+        width: 100%;
+    }
+}
+
+/* ----------------------------------------------
+   ADMIN BAR
+ -----------------------------------------------*/
+@media (min-width: 992px) {
+    .html_header_top.html_logo_center .logged-in .av-section-bottom-logo {
+        top: 102px;
+    }
+}
+
+/* ----------------------------------------------
+HELPERS
+-----------------------------------------------*/
+.d-none {
+    display: none;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.mtmin {
+    margin-top: -200px !important;
+}
+
+@media (min-width: 1200px) {
+    .mtmin-lgplus {
+        margin-top: -200px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .mtmin-lgplus {
+        margin-top: -150px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .mtmin-smplus {
+        margin-top: -200px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .mtmin-mdplus {
+        margin-top: -200px !important;
+    }
+}
+
+/*# sourceMappingURL=style.css.map */
