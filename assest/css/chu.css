@@ -1,0 +1,113 @@
+.team {
+    align-items: center !important;
+    margin-top: 350px !important;
+}
+
+.team h2 {
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    /* Adjust as per your layout */
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    /* Hide all slides initially */
+}
+
+.slide img {
+    max-height: 50%;
+    max-width: 50%;
+    object-fit: contain;
+    margin-left: 50px;
+}
+
+.slide.active {
+    display: block;
+    /* Only the active slide is visible */
+}
+
+.indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: hotpink;
+    /* inactive color */
+    margin: 0 5px;
+}
+
+.indicators {
+    margin-left: 445px;
+}
+
+.indicator.active {
+    background-color: blue;
+    /* active color */
+}
+
+@media (max-width: 480px) {
+    .av-special-heading h3 {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .avia_textblock {
+        margin-left: 0;
+        width: 100%;
+        margin-top: -100px !important;
+    }
+
+    .avia_textblock2 {
+        margin-left: -10px !important;
+        margin-top: -100px;
+    }
+
+    .av-special-heading-tag1 {
+        display: none;
+    }
+
+    .avia_textblock1 p {
+        display: none !important;
+    }
+
+    .donate {
+        width: 250% !important;
+        align-items: center !important;
+        height: 20% !important;
+        margin-left: -50px !important;
+    }
+
+    .team {
+        align-items: center !important;
+    }
+
+    .team h2 {
+        align-items: center;
+        display: flex;
+    }
+
+    .slide img {
+        margin-bottom: -50px;
+    }
+
+    .slider {
+        margin-top: -200px !important;
+        margin-bottom: -50px;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+
+    .avia-bullet1 {
+        font-size: 10px;
+        margin-left: 30px;
+    }
+}
